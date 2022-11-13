@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding:0;
+	border-sizing: box-border;
+ }
+ body
+ {
+	 font-family: sans-serif;
+ }
+ 
+/*a:link{color:white;}
+a:hover{color:yellow;}-->*/
+	.nav
+	{
+		float:left;
+		width: 100%;
+		background-color: #353c37;
+		height: 100px;
+	}
+	.nav .ul1 
+	{
+		display: flex;
+		list-style: none;
+	}
+	.nav .ul1 a
+	{
+		text-decoration: none;
+		background-color: #f55c47;
+		padding: 10px;
+		margin: 20px;
+		position: relative;
+		top: 30px;
+		color:white;
+		border-radius: 5px;
+	}
+	.nav .ul1 form
+	{
+		position: relative; 
+		top:30px;
+		left: 180px;
+	}
+	.banner
+	{
+		width: 100%;
+		float: left;
+	}
+	.content
+	{
+		width: 100%;
+		
+	}
+	
+	.content .c1 
+	{
+		width:70%;
+		float: left;
+	}
+	.content .i1
+	{
+		width: 30%;
+		float: left;
+	}
+	.footer
+	{
+		clear: both;
+		width: 100%;
+		background-color: #353c37;
+		height: 230px;
+	}
+	.footer ul 
+	{
+		display: inline-block;
+		list-style: none;
+	}
+	.footer ul a
+	{
+	text-decoration: none;
+	color:white;
+	}
+	.subnav
+	{
+		display: none;
+		border-radius: 5px;
+	}
+	.nav .ul1 li:hover .subnav 
+	{
+		display: block;
+		position: relative;
+		background: #f55c47;
+		margin-top: 40px;
+		margin-left: 15px;
+	}
+	.nav .ul1 li:hover .subnav .ul2 li
+	{
+	  list-style: none;
+	}
+	.nav .ul1 li:hover .subnav .ul2 a
+	{
+		display: block;
+		margin: 10px;		
+		border-bottom: 2px dotted black;
+	}
